@@ -1,7 +1,7 @@
-const hobbies = ["sports", "cooking"];
+function ram(...arg) {
+  return arg;
+}
 
-const ram = [...hobbies];
-ram.push("hinata");
+console.log(ram(1, 2, 3, 4, 5, 6));
 
-console.log(hobbies);
-console.log(ram);
+// this is known as rest operator
