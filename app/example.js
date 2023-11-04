@@ -1,5 +1,5 @@
-const sum = (a, b) => {
-  return a + b;
-};
+const sports = ["foot ball", "volly ball", "baskect ball"];
 
-console.log(sum(1, 2));
+for (const i of sports) {
+  console.log(i);
+}
