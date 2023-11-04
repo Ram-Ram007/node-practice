@@ -1,5 +1,3 @@
-const sports = ["foot ball", "volly ball", "baskect ball"];
+const hobbies = ["sports", "cooking"];
 
-for (const i of sports) {
-  console.log(i);
-}
+console.log(hobbies.map((i) => "ram" + i));
