@@ -1,3 +1,7 @@
 const hobbies = ["sports", "cooking"];
 
-console.log(hobbies.map((i) => "ram" + i));
+const ram = [...hobbies];
+ram.push("hinata");
+
+console.log(hobbies);
+console.log(ram);
