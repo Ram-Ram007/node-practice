@@ -1,5 +1,4 @@
 const http = require("http");
-const { test } = require("node:test");
 
 const server = http.createServer((req, res) => {
   res.setHeader("content-type", "text/html");
