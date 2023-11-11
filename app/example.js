@@ -13,3 +13,5 @@ function UpdateCard(id, updatedTitle) {
     }
     return item;
   });
+
+}
