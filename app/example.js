@@ -1,10 +1,6 @@
-const http = require("http");
+function deleteCard(id) {
+  const filterArray = titles.filter((iteam) => iteam.id !== id);
+  setTitles(filterArray);
+  localStorage.setItem("titles", JSON.stringify(filterArray));
+}
 
-const server = http.createServer((req, res) => {
-  res.setHeader("content-type", "text/html");
-  res.write("<html>");
-  res.write("<h1>hello</h1>");
-  res.end();
-});
-
-server.listen(3000);
