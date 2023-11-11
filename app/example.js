@@ -15,3 +15,6 @@ function UpdateCard(id, updatedTitle) {
   });
 
 }
+
+
+//local storage
