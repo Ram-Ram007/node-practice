@@ -13,8 +13,8 @@ function UpdateCard(id, updatedTitle) {
     }
     return item;
   });
-
 }
 
-
 //local storage
+
+localStorage.setItem("titles", JSON.stringify(newTitles));
