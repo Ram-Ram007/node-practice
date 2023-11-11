@@ -19,7 +19,7 @@ function UpdateCard(id, updatedTitle) {
 
 localStorage.setItem("titles", JSON.stringify(newTitles));
 
-
+// using useeffect to store value locally
 useEffect(() => {
     const storedTitles = JSON.parse(localStorage.getItem("titles"));
     if (storedTitles) {
