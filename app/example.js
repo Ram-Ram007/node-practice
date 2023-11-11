@@ -4,3 +4,8 @@ function deleteCard(id) {
   localStorage.setItem("titles", JSON.stringify(filterArray));
 }
 
+// map function
+
+const newArray = array.map((currentValue, index, array) => {
+  
+});
