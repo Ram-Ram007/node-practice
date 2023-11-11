@@ -21,8 +21,8 @@ localStorage.setItem("titles", JSON.stringify(newTitles));
 
 
 useEffect(() => {
-  const storedTitles = JSON.parse(localStorage.getItem("titles"));
-  if (storedTitles) {
-    setTitles(storedTitles);
-  }
-}, );
+    const storedTitles = JSON.parse(localStorage.getItem("titles"));
+    if (storedTitles) {
+      setTitles(storedTitles);
+    }
+  }, []);
